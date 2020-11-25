@@ -1,0 +1,36 @@
+{
+  "name": "rhythmcounter",
+  "version": "1.0.0",
+  "description": "an application that will be a combination of a  metronome and a counter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "watch": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tak074/RhythmCounter.git"
+  },
+  "author": "Taeksu Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tak074/RhythmCounter/issues"
+  },
+  "homepage": "https://github.com/tak074/RhythmCounter#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "url-loader": "^4.1.1"
+  }
+}
